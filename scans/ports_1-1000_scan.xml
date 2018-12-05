@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Sat Dec  1 10:58:38 2018 as: nmap -p 1-1000 -sV -sS -Pn -T4 -oX ports_1-1000_scan.xml 104.248.191.147 -->
+<nmaprun scanner="nmap" args="nmap -p 1-1000 -sV -sS -Pn -T4 -oX ports_1-1000_scan.xml 104.248.191.147" start="1543697918" startstr="Sat Dec  1 10:58:38 2018" version="7.70" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="1000" services="1-1000"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<taskprogress task="SYN Stealth Scan" time="1543697938" percent="5.50" remaining="121" etc="1543698058"/>
+<host starttime="1543697931" endtime="1543698033"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="104.248.191.147" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="1000">
+<extrareasons reason="no-responses" count="1000"/>
+</extraports>
+</ports>
+</host>
+<runstats><finished time="1543698033" timestr="Sat Dec  1 11:00:33 2018" elapsed="115.43" summary="Nmap done at Sat Dec  1 11:00:33 2018; 1 IP address (1 host up) scanned in 115.43 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
